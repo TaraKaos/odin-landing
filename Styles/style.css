@@ -1,8 +1,9 @@
-html, body {
+body, header, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
-}
+}   
 
+/* HEADER */
 header {
     background-color: rgb(71, 71, 89);
     height: 25px;
@@ -25,4 +26,14 @@ header {
     color: rgb(223, 214, 214);
     text-decoration: none;
     margin: 5px;
+}
+
+/* MAIN */
+main {
+    background-color: rgb(71, 71, 89);
+    margin-top: 0;
+    padding-top: 0;
+}
+main h1 {
+    color: white;
 }
