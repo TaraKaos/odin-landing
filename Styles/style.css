@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(71, 71, 89);
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-image img {
+    max-height: 100%;
+    justify-self: flex-start;
+}
+
+.header-link {
+    align-self: center;
+    justify-self: center;
+}
+
+.header-link a {
+    color: rgb(223, 214, 214);
+    text-decoration: none;
+    margin: 5px;
+}
